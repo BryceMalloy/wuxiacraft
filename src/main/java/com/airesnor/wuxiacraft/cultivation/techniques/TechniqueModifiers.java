@@ -10,7 +10,7 @@ public class TechniqueModifiers {
 	public final double maxEnergy;
 
 	public TechniqueModifiers(double armor, double attackSpeed, double maxHealth, double movementSpeed, double strength, double maxEnergy) {
-		this.armor = armor;
+		this.armor = 0;
 		this.attackSpeed = attackSpeed;
 		this.movementSpeed = movementSpeed;
 		this.strength = strength;
